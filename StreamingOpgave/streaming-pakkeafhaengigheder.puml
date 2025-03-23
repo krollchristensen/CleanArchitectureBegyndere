@@ -1,0 +1,36 @@
+@startuml StreamingTjenestePakker
+
+package Presentation {
+}
+
+package Application {
+}
+
+package Domain {
+}
+
+package Infrastructure {
+}
+
+Presentation --> Application
+Application --> Domain
+Infrastructure --> Domain
+Application --> Infrastructure : via interfaces
+
+note bottom of Presentation
+  Controllers (Thymeleaf)
+end note
+
+note bottom of Application
+  Services (Forretningslogik)
+end note
+
+note bottom of Domain
+  Entities (Kerneforretning)
+end note
+
+note bottom of Infrastructure
+  Database og eksterne ressourcer
+end note
+
+@enduml
