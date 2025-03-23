@@ -1,11 +1,15 @@
-# Clean Architecture Opgaver
+# Clean Architecture Opgaver (Introduktion til Softwarearkitektur)
 
-Dette repository indeholder overskuelige diagrammer for pakkeafhængigheder til følgende opgaver:
+## 🎬 Streaming-tjeneste...
 
-## 🎬 Streaming-tjeneste
-Se: [streaming-pakkeafhaengigheder.puml](StreamingOpgave/streaming-pakkeafhaengigheder.puml)
+![Streaming-tjeneste diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/<dit-brugernavn>/<dit-repository>/main/StreamingOpgave/streaming-pakkeafhaengigheder.puml)
 
-## 🍕 Pizza Paradise
-Se: [pizzaparadise-pakkeafhaengigheder.puml](PizzaParadiseOpgave/pizzaparadise-pakkeafhaengigheder.puml)
+[Se kildekode (PUML)](StreamingOpgave/streaming-pakkeafhaengigheder.puml)
 
+---
 
+## 🍕 Pizza Paradise – Pizzabestillingssystem...
+
+![Pizza Paradise diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/<dit-brugernavn>/<dit-repository>/main/PizzaParadiseOpgave/pizzaparadise-pakkeafhaengigheder.puml)
+
+[Se kildekode (PUML)](PizzaParadiseOpgave/pizzaparadise-pakkeafhaengigheder.puml)
